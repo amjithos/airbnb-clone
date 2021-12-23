@@ -24,7 +24,12 @@ function App() {
           <Route path="/host">
             <Host/>
           </Route>
+    
           <Route path="/admin">
+            <Dashboard/>
+          </Route>
+    
+          <Route path="*">
             <Dashboard/>
           </Route>
 
