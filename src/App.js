@@ -8,7 +8,6 @@ import Dashboard from "./admin/Dashboard";
 import Navbar from './components/Navbar'
 import Homepage from "./pages/Homepage";
 import Host from "./pages/Host";
-import Notfound from "./pages/Notfound";
 
 function App() {
   return (
@@ -26,10 +25,6 @@ function App() {
           </Route>
     
           <Route path="/admin">
-            <Dashboard/>
-          </Route>
-    
-          <Route path="*">
             <Dashboard/>
           </Route>
 
