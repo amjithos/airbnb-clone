@@ -28,10 +28,6 @@ function App() {
             <Dashboard/>
           </Route>
 
-
-          <Route path="*">
-            <Notfound/>
-          </Route>
         </Switch>
       </Router>
     </div>
